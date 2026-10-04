@@ -1,0 +1,31 @@
+# Simulink: cache e file generati
+slprj/
+*.slxc
+*.autosave
+*.slx.r20*
+*.original
+*.mexw64
+*.mexa64
+*.mexmaci64
+*_ert_rtw/
+*_grt_rtw/
+codegen/
+# MATLAB
+*.asv
+*.mat
+# Vivado
+.Xil/
+*.cache/
+*.runs/
+*.sim/
+*.hw/
+*.ip_user_files/
+*.gen/
+*.jou
+*.log
+*.str
+*.bit
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
