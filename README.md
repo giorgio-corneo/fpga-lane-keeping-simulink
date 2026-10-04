@@ -13,6 +13,8 @@ connected over UART, so the two can be compared on the same scenarios.
 > a.y. 2025/2026. Team: Alessandro Alemagna, Mauro Ingenito ([@Mauroing02](https://github.com/Mauroing02)),
 > Giorgio Corneo ([@giorgio-corneo](https://github.com/giorgio-corneo)).
 
+**Presentation:** [project slides (PDF, 26 pages)](docs/presentation.pdf) with assumptions, design and results.
+
 ![Closed-loop architecture](docs/images/architecture_closed_loop.png)
 
 ## Pipeline
@@ -84,7 +86,7 @@ Lateral error from the lane centerline.
 simulink/   lane_keeping_fpga_in_the_loop.slx   the complete model (MATLAB R2025b)
 matlab/     code of every MATLAB Function block, extracted for reading on GitHub
 fpga/       VHDL written for the project (UART depacketizer, FIFO) and Basys 3 pin constraints
-docs/       figures used in this README
+docs/       project presentation (PDF) and the figures used in this README
 ```
 
 The FPGA design builds on the image-processing modules of a *Digital Electronic Systems Design* lab
